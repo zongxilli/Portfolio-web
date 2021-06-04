@@ -40,19 +40,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 :root {
-  --primary-white: #fff;
-  --primary-orange: #f9ab00;
-  --primary-green: #09911f;
-  --primary-dark: rgba(255, 255, 255, 0);
+	--primary-white: #fff;
+	--primary-orange: #f9ab00;
+	--primary-green: #09911f;
+	--primary-dark: rgba(255, 255, 255, 0);
 	--primary-red: #db3737;
+	--primary-purple: #4600de;
 	--primary-hover-red: #f33501;
 	--primary-hover-blue: #10dae8bd;
 }
 
 body {
-  font-family: 'Fira Code', monospace;
+	font-family: 'Fira Code', monospace !important;
 }
-
 
 /******************************** NAVBAR ********************************/
 
@@ -67,40 +67,41 @@ nav {
 /**------ MENU LINKS -----**/
 nav a.nav-link {
 	/* font-weight: 500; */
-  /* font-size: .8rem; */
+	/* font-size: .8rem; */
 	letter-spacing: 0.0375rem;
 	cursor: pointer;
 }
 
 nav ul li {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
+	margin-right: 0.75rem;
+	margin-left: 0.75rem;
+	color: var(--primary-white) !important;
+	border-top: 0.1875rem solid var(--primary-dark);
 }
 
 .navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 6rem !important;
+	max-width: 17.25rem;
+	padding: 0 !important;
+	height: 6rem !important;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
 	.navbar-brand {
 		width: 7rem;
 	}
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-green);
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+	border-top: 0.1875rem solid var(--primary-green);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-green);
+	border-top: 0.1875rem solid var(--primary-green);
 }
 
 /******************************** HEADER ********************************/
@@ -129,11 +130,9 @@ nav ul li {
 
 .main-info h1 {
 	color: var(--primary-orange);
-	text-transform:  uppercase;
+	text-transform: uppercase;
 	font-weight: 100; /*BMS*/
 }
-
-
 
 /**------ TYPED TEXT -----**/
 .typed-text {
@@ -141,7 +140,7 @@ nav ul li {
 	color: var(--primary-white);
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
 	.main-info h1 {
 		font-size: 1.7rem !important;
 	}
@@ -164,7 +163,7 @@ nav ul li {
 	text-decoration: none;
 	background-color: var(--primary-hover-blue);
 	color: var(--primary-white);
-	transition: .2s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
 /**------ PARTICLES JS -----**/
@@ -173,5 +172,30 @@ nav ul li {
 	height: 100vh;
 	width: 100vw;
 	z-index: 1;
+}
 
+/******************************** ABOUT ME ********************************/
+
+.photo-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-img {
+	width: 16rem;
+	border-radius: 50%;
+	padding: 0.3rem;
+	border: 1px solid var(--primary-purple);
+}
+
+.about-heading {
+	color: var(--primary-purple);
+	text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+	.profile-img {
+		width: 10rem;
+	}
 }
