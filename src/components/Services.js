@@ -10,7 +10,7 @@ const Services = () => {
 				<div className="container">
 					<div className="row">
 						{/******************************/}
-						<div className="col-md-3 col-sm-6">
+						<div className="col-lg-3 col-md-6 col-sm-6">
 							<div className="box">
 								<div className="circle">
 									<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
@@ -20,7 +20,7 @@ const Services = () => {
 							</div>
 						</div>
 						{/******************************/}
-						<div className="col-md-3 col-sm-6">
+						<div className="col-lg-3 col-md-6 col-sm-6">
 							<div className="box">
 								<div className="circle">
 									<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
@@ -30,7 +30,7 @@ const Services = () => {
 							</div>
 						</div>
 						{/******************************/}
-						<div className="col-md-3 col-sm-6">
+						<div className="col-lg-3 col-md-6 col-sm-6">
 							<div className="box">
 								<div className="circle">
 									<FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" />
@@ -40,7 +40,7 @@ const Services = () => {
 							</div>
 						</div>
 						{/******************************/}
-						<div className="col-md-3 col-sm-6">
+						<div className="col-lg-3 col-md-6 col-sm-6">
 							<div className="box">
 								<div className="circle">
 									<FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
