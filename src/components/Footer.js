@@ -17,7 +17,7 @@ const Footer = () => {
 				<div className="row">
 					<div className="col-lg-4 col-md-6 col-sm-6">
 						<div className="d-flex">
-							<p>811 - 72 Esther Shiner Blvd, North York</p>
+							<p>North York, Ontario, Canada</p>
 						</div>
 						<div className="d-flex">
 							<a href="tel:647-866-4668">+1(647)866-4668</a>

@@ -124,7 +124,7 @@ nav ul li {
 
 .header-wraper {
 	position: relative;
-	background: url('./images/background (11).jpg') no-repeat;
+	background: url('./images/background (35).jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -473,7 +473,7 @@ nav ul li {
 /******************************** TESTIMONIALS ********************************/
 
 .testimonials {
-	background-image: url('./images/background (19).jpg');
+	background-image: url('./images/background (40).jpg');
 	background-size: cover;
 	background-color: var(--primary-black);
 	text-align: center;
@@ -512,12 +512,13 @@ nav ul li {
 .myCarousel h3 {
 	color: var(--primary-pink);
 	font-weight: 600;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .carousel .slide img {
-	width: 10rem !important;
-	border-radius: 50%;
+	width: auto !important;
+	border-radius: 10%;
+	height: 22rem !important;
 }
 
 .carousel .slide {
