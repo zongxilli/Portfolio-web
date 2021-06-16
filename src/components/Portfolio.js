@@ -43,12 +43,16 @@ export const Portfolio = () => {
 			</>
 		);
 		PopupboxManager.open({ content });
+		PopupboxManager.update({
+			content,
+			config: popupboxConfigProject1,
+		});
 	};
 
 	const popupboxConfigProject1 = {
 		titleBar: {
 			enable: true,
-			text: 'This is the title',
+			text: 'This is the title of pj1',
 		},
 		fadeIn: true,
 		fadeInSpeed: 300,
@@ -86,12 +90,16 @@ export const Portfolio = () => {
 			</>
 		);
 		PopupboxManager.open({ content });
+		PopupboxManager.update({
+			content,
+			config: popupboxConfigProject2,
+		});
 	};
 
 	const popupboxConfigProject2 = {
 		titleBar: {
 			enable: true,
-			text: 'This is the title',
+			text: 'This is the title of pj2',
 		},
 		fadeIn: true,
 		fadeInSpeed: 300,
@@ -129,12 +137,16 @@ export const Portfolio = () => {
 			</>
 		);
 		PopupboxManager.open({ content });
+		PopupboxManager.update({
+			content,
+			config: popupboxConfigProject3,
+		});
 	};
 
 	const popupboxConfigProject3 = {
 		titleBar: {
 			enable: true,
-			text: 'This is the title',
+			text: 'This is the title of pj3',
 		},
 		fadeIn: true,
 		fadeInSpeed: 300,
@@ -147,9 +159,9 @@ export const Portfolio = () => {
 				<img
 					className="portfolio-image-popupbox"
 					src={img4}
-					alt="This is my project2 ..."
+					alt="This is my project4 ..."
 				/>
-				<p>This is the introduction of my project 3</p>
+				<p>This is the introduction of my project 4</p>
 				<b>Demo: </b>
 				<a
 					className="hyper-link"
@@ -172,53 +184,55 @@ export const Portfolio = () => {
 			</>
 		);
 		PopupboxManager.open({ content });
+		PopupboxManager.update({
+			content,
+			config: popupboxConfigProject4,
+		});
 	};
 
 	const popupboxConfigProject4 = {
 		titleBar: {
 			enable: true,
-			text: 'This is the title',
+			text: 'This is the title of pj4',
 		},
 		fadeIn: true,
 		fadeInSpeed: 300,
 	};
 
 	return (
-		<div>
-			<div className="portfolio-wrapper">
-				<div className="container">
-					<h1 className="text-uppercase text-center py-5">portfolio</h1>
+		<div id="portfolio" className="portfolio-wrapper">
+			<div className="container">
+				<h1 className="text-uppercase text-center py-5">portfolio</h1>
 
-					<div className="image-box-wrapper row justify-content-center">
-						<div className="portfolio-image-box" onClick={openPopupboxProject1}>
-							<img className="portfolio-image" src={img1} alt="Project 1" />
-							<div className="overflow"></div>
-							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-						</div>
+				<div className="image-box-wrapper row justify-content-center">
+					<div className="portfolio-image-box" onClick={openPopupboxProject1}>
+						<img className="portfolio-image" src={img1} alt="Project 1" />
+						<div className="overflow"></div>
+						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+					</div>
 
-						{/*-----------------------------------------------------------*/}
+					{/*-----------------------------------------------------------*/}
 
-						<div className="portfolio-image-box" onClick={openPopupboxProject2}>
-							<img className="portfolio-image" src={img2} alt="Project 2" />
-							<div className="overflow"></div>
-							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-						</div>
+					<div className="portfolio-image-box" onClick={openPopupboxProject2}>
+						<img className="portfolio-image" src={img2} alt="Project 2" />
+						<div className="overflow"></div>
+						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+					</div>
 
-						{/*-----------------------------------------------------------*/}
+					{/*-----------------------------------------------------------*/}
 
-						<div className="portfolio-image-box" onClick={openPopupboxProject3}>
-							<img className="portfolio-image" src={img3} alt="Project 3" />
-							<div className="overflow"></div>
-							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-						</div>
+					<div className="portfolio-image-box" onClick={openPopupboxProject3}>
+						<img className="portfolio-image" src={img3} alt="Project 3" />
+						<div className="overflow"></div>
+						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+					</div>
 
-						{/*-----------------------------------------------------------*/}
+					{/*-----------------------------------------------------------*/}
 
-						<div className="portfolio-image-box" onClick={openPopupboxProject4}>
-							<img className="portfolio-image" src={img4} alt="Project 4" />
-							<div className="overflow"></div>
-							<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-						</div>
+					<div className="portfolio-image-box" onClick={openPopupboxProject4}>
+						<img className="portfolio-image" src={img4} alt="Project 4" />
+						<div className="overflow"></div>
+						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 					</div>
 				</div>
 			</div>
