@@ -192,7 +192,6 @@ nav ul li {
 
 /******************************** ABOUT ME ********************************/
 
-
 .photo-wrap {
 	display: flex;
 	justify-content: center;
@@ -532,6 +531,14 @@ nav ul li {
 	margin-top: 3% !important;
 }
 
+@media (max-width: 768px) {
+	.carousel .slide img {
+		height: auto !important;
+		max-height: 18rem !important;
+		max-width: 95% !important;
+	}
+}
+
 /******************************** CONTACTS ********************************/
 
 .contacts {
@@ -643,22 +650,22 @@ textarea.form-control {
 /******************************** FOOTER ********************************/
 
 .footer {
-  background: var(--primary-black);
-  color: var(--primary-grey);
-  padding: 3rem;
+	background: var(--primary-black);
+	color: var(--primary-grey);
+	padding: 3rem;
 }
 
 .footer a {
-  text-decoration: none;
-  color: var(--primary-grey);
+	text-decoration: none;
+	color: var(--primary-grey);
 }
 
 .footer a:hover {
-  text-decoration: none;
-  color: var(--primary-green);
-  cursor:pointer;
+	text-decoration: none;
+	color: var(--primary-green);
+	cursor: pointer;
 }
 
 .footer p {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
