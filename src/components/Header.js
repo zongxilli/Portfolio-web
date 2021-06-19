@@ -6,12 +6,12 @@ const Header = () => {
 	return (
 		<div id="home" className="header-wraper">
 			<div className="main-info">
-				<h1>web development</h1>
+				<h1>frontend development</h1>
 				<Typed
 					className="typed-text"
-					strings={['Web Design', 'Web Development', 'Front-end', 'Back-end']}
-					typeSpeed={40}
-					backSpeed={60}
+					strings={['MongoDB', 'Express', 'React', 'NodeJs']}
+					typeSpeed={60}
+					backSpeed={40}
 					loop
 				/>
 				<Link
@@ -27,3 +27,4 @@ const Header = () => {
 };
 
 export default Header;
+

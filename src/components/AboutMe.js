@@ -13,9 +13,8 @@ const AboutMe = () => {
 				<div className="col-lg-6 col-xm-12">
 					<h1 className="about-heading">About Me</h1>
 					<p>
-						Hi! I am Zongxi(Kenny). I have been developing websites over 1
-						years. Technologies I use is MERN(MongoDB, Express, ReactJS and
-						NodeJS). Feel free to contact me at any time!
+						Hi! I am Zongxi(Kenny). Technologies I usually use is MERN stack(MongoDB, Express, React and
+						NodeJS), Redux, Bootstrap, Semantic UI... -> Feel free to contact me at any time!
 					</p>
 				</div>
 			</div>
