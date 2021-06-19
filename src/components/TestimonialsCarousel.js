@@ -5,6 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import avatar1 from '../images/travel (2).jpg';
 import avatar2 from '../images/travel (5).jpg';
 import avatar3 from '../images/travel (6).jpg';
+import avatar4 from '../images/travel (4).jpg';
 import avatar5 from '../images/travel (8).jpg';
 import avatar6 from '../images/travel (10).jpg';
 import avatar8 from '../images/travel (13).jpg';
@@ -43,6 +44,13 @@ const TestimonialsCarousel = () => {
 				<div className="myCarousel">
 					<h3>My little prince Kennie</h3>
 					<p>He is a typically Persian cat :)</p>
+				</div>
+			</>
+			<>
+				<img src={avatar4} alt="Avatar" />
+				<div className="myCarousel">
+					<h3>Parc Omega</h3>
+					<p>A safari park in Notre-Dame-de-Bonsecours</p>
 				</div>
 			</>
 			<>
