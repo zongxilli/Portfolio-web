@@ -6,10 +6,17 @@ const Header = () => {
 	return (
 		<div id="home" className="header-wraper">
 			<div className="main-info">
-				<h1>frontend development</h1>
+				<h1>Software Engineer</h1>
 				<Typed
 					className="typed-text"
-					strings={['MongoDB', 'Express', 'React', 'NodeJs']}
+					strings={[
+						'React',
+						'Redux',
+						'Express',
+						'NodeJs',
+						'MongoDB',
+						'PostgreSQL',
+					]}
 					typeSpeed={60}
 					backSpeed={40}
 					loop
@@ -27,4 +34,3 @@ const Header = () => {
 };
 
 export default Header;
-
