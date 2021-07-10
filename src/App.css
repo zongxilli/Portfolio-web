@@ -542,7 +542,6 @@ nav ul li {
 /******************************** CONTACTS ********************************/
 
 .contacts {
-	height: 72vh;
 	background: var(--primary-dark);
 	padding: 3rem 0;
 }
