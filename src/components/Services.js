@@ -16,7 +16,7 @@ const Services = () => {
 								<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
 							</div>
 							<h3>Framework</h3>
-							<p>React + Express</p>
+							<p>Express NodeJs Bootstrap Semantic UI ......</p>
 						</div>
 					</div>
 					{/******************************/}
@@ -26,7 +26,7 @@ const Services = () => {
 								<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
 							</div>
 							<h3>Language</h3>
-							<p>JavaScript/JSX Java Objective-C Python R ......</p>
+							<p>JavaScript/JSX Java C Python R Html CSS ......</p>
 						</div>
 					</div>
 					{/******************************/}
@@ -41,8 +41,7 @@ const Services = () => {
 							</div>
 							<h3>Library</h3>
 							<p>
-								Redux React-Hook-Form React-Router Bootstrap Material-UI
-								Semantic-UI ......
+								ReactJs Redux......
 							</p>
 						</div>
 					</div>
@@ -53,7 +52,7 @@ const Services = () => {
 								<FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
 							</div>
 							<h3>Database</h3>
-							<p>MongoDB PostgreSQL ......</p>
+							<p>MongoDB PostgreSQL Firebase</p>
 						</div>
 					</div>
 				</div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../images/006.jpg';
+import img1 from '../images/Project Image (1).png';
 import img2 from '../images/002.png';
 import img3 from '../images/003.jpg';
 import img4 from '../images/004.png';
@@ -18,11 +18,11 @@ export const Portfolio = () => {
 				<img
 					className="portfolio-image-popupbox"
 					src={img1}
-					alt="This is my project1 ..."
+					alt="E-commerce"
 				/>
-				<p>This is the introduction of my project 1</p>
-				<b>Demo: </b>
-				<a
+				<p>Full-Stack E-Commerce App (Using React Redux Express NodeJs MongoDB...)</p>
+				<b>Demo: Not Deployed Yet, Coming Soon ...</b>
+				{/* <a
 					className="hyper-link"
 					onClick={() =>
 						window.open(
@@ -30,15 +30,15 @@ export const Portfolio = () => {
 						)
 					}>
 					https://my-personal-website-o77luofz6-zongxilli.vercel.app/
-				</a>
+				</a> */}
 				<br />
 				<b>GitHub: </b>
 				<a
 					className="hyper-link"
 					onClick={() =>
-						window.open('https://github.com/zongxilli/Toy-Portfolio-web')
+						window.open('https://github.com/zongxilli/E-shop')
 					}>
-					https://github.com/zongxilli/Toy-Portfolio-web
+					https://github.com/zongxilli/E-shop
 				</a>
 			</>
 		);
@@ -52,7 +52,7 @@ export const Portfolio = () => {
 	const popupboxConfigProject1 = {
 		titleBar: {
 			enable: true,
-			text: 'This is the title of pj1',
+			text: 'Kennys Shop',
 		},
 		fadeIn: true,
 		fadeInSpeed: 300,
