@@ -3,6 +3,7 @@ import img1 from '../images/Project Image (1).png';
 import img2 from '../images/002.png';
 import img3 from '../images/003.jpg';
 import img4 from '../images/004.png';
+import ComingSoon from '../images/Coming Soon.jpg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
@@ -21,7 +22,7 @@ export const Portfolio = () => {
 					alt="E-commerce"
 				/>
 				<p>Full-Stack E-Commerce App (Using React Redux Express NodeJs MongoDB...)</p>
-				<b>Demo: Not Deployed Yet, Coming Soon ...</b>
+				<b>Demo: Not Deployed Yet, Coming in Aug ...</b>
 				{/* <a
 					className="hyper-link"
 					onClick={() =>
@@ -64,7 +65,7 @@ export const Portfolio = () => {
 			<>
 				<img
 					className="portfolio-image-popupbox"
-					src={img2}
+					src={ComingSoon}
 					alt="This is my project2 ..."
 				/>
 				<p>This is the introduction of my project 2</p>
@@ -111,7 +112,7 @@ export const Portfolio = () => {
 			<>
 				<img
 					className="portfolio-image-popupbox"
-					src={img3}
+					src={ComingSoon}
 					alt="This is my project3 ..."
 				/>
 				<p>This is the introduction of my project 3</p>
@@ -158,7 +159,7 @@ export const Portfolio = () => {
 			<>
 				<img
 					className="portfolio-image-popupbox"
-					src={img4}
+					src={ComingSoon}
 					alt="This is my project4 ..."
 				/>
 				<p>This is the introduction of my project 4</p>
@@ -214,7 +215,7 @@ export const Portfolio = () => {
 					{/*-----------------------------------------------------------*/}
 
 					<div className="portfolio-image-box" onClick={openPopupboxProject2}>
-						<img className="portfolio-image" src={img2} alt="Project 2" />
+						<img className="portfolio-image" src={ComingSoon} alt="Project 2" />
 						<div className="overflow"></div>
 						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 					</div>
@@ -222,7 +223,7 @@ export const Portfolio = () => {
 					{/*-----------------------------------------------------------*/}
 
 					<div className="portfolio-image-box" onClick={openPopupboxProject3}>
-						<img className="portfolio-image" src={img3} alt="Project 3" />
+						<img className="portfolio-image" src={ComingSoon} alt="Project 3" />
 						<div className="overflow"></div>
 						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 					</div>
@@ -230,7 +231,7 @@ export const Portfolio = () => {
 					{/*-----------------------------------------------------------*/}
 
 					<div className="portfolio-image-box" onClick={openPopupboxProject4}>
-						<img className="portfolio-image" src={img4} alt="Project 4" />
+						<img className="portfolio-image" src={ComingSoon} alt="Project 4" />
 						<div className="overflow"></div>
 						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 					</div>
