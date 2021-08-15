@@ -22,16 +22,16 @@ export const Portfolio = () => {
 					alt="E-commerce"
 				/>
 				<p>Full-Stack E-Commerce App (Using React Redux Express NodeJs MongoDB...)</p>
-				<b>Demo: Not Deployed Yet, Coming in Aug ...</b>
-				{/* <a
+				<b>Demo: </b>
+				<a
 					className="hyper-link"
 					onClick={() =>
 						window.open(
-							'https://my-personal-website-o77luofz6-zongxilli.vercel.app/'
+							'https://kennysshop.herokuapp.com/'
 						)
 					}>
-					https://my-personal-website-o77luofz6-zongxilli.vercel.app/
-				</a> */}
+					https://kennysshop.herokuapp.com/
+				</a>
 				<br />
 				<b>GitHub: </b>
 				<a
@@ -70,7 +70,7 @@ export const Portfolio = () => {
 				/>
 				<p>This is the introduction of my project 2</p>
 				<b>Demo: </b>
-				<a
+				{/* <a
 					className="hyper-link"
 					onClick={() =>
 						window.open(
@@ -78,16 +78,16 @@ export const Portfolio = () => {
 						)
 					}>
 					https://my-personal-website-o77luofz6-zongxilli.vercel.app/
-				</a>
+				</a> */}
 				<br />
 				<b>GitHub: </b>
-				<a
+				{/* <a
 					className="hyper-link"
 					onClick={() =>
 						window.open('https://github.com/zongxilli/Toy-Portfolio-web')
 					}>
 					https://github.com/zongxilli/Toy-Portfolio-web
-				</a>
+				</a> */}
 			</>
 		);
 		PopupboxManager.open({ content });
@@ -117,7 +117,7 @@ export const Portfolio = () => {
 				/>
 				<p>This is the introduction of my project 3</p>
 				<b>Demo: </b>
-				<a
+				{/* <a
 					className="hyper-link"
 					onClick={() =>
 						window.open(
@@ -125,16 +125,16 @@ export const Portfolio = () => {
 						)
 					}>
 					https://my-personal-website-o77luofz6-zongxilli.vercel.app/
-				</a>
+				</a> */}
 				<br />
 				<b>GitHub: </b>
-				<a
+				{/* <a
 					className="hyper-link"
 					onClick={() =>
 						window.open('https://github.com/zongxilli/Toy-Portfolio-web')
 					}>
 					https://github.com/zongxilli/Toy-Portfolio-web
-				</a>
+				</a> */}
 			</>
 		);
 		PopupboxManager.open({ content });
@@ -164,7 +164,7 @@ export const Portfolio = () => {
 				/>
 				<p>This is the introduction of my project 4</p>
 				<b>Demo: </b>
-				<a
+				{/* <a
 					className="hyper-link"
 					onClick={() =>
 						window.open(
@@ -172,16 +172,16 @@ export const Portfolio = () => {
 						)
 					}>
 					https://my-personal-website-o77luofz6-zongxilli.vercel.app/
-				</a>
+				</a> */}
 				<br />
 				<b>GitHub: </b>
-				<a
+				{/* <a
 					className="hyper-link"
 					onClick={() =>
 						window.open('https://github.com/zongxilli/Toy-Portfolio-web')
 					}>
 					https://github.com/zongxilli/Toy-Portfolio-web
-				</a>
+				</a> */}
 			</>
 		);
 		PopupboxManager.open({ content });
