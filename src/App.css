@@ -199,10 +199,12 @@ nav ul li {
 }
 
 .profile-img {
-	width: 16rem;
-	border-radius: 50%;
+	width: 30rem;
+	height: 37rem;
+	object-fit: cover;
+	border-radius: 15%;
 	padding: 0.3rem;
-	/* border: 1px solid var(--primary-light-blue); */
+	border: 1px solid var(--primary-light-blue);
 }
 
 .about-heading {
@@ -212,7 +214,7 @@ nav ul li {
 
 @media (max-width: 468px) {
 	.profile-img {
-		width: 10rem;
+		width: 90%;
 	}
 }
 

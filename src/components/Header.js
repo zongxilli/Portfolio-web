@@ -13,9 +13,16 @@ const Header = () => {
 						'React',
 						'Redux',
 						'Express',
-						'NodeJs',
+						'Node.Js',
+						'GraphQL',
+						'Axios',
 						'MongoDB',
+						'Mongoose',
 						'PostgreSQL',
+						'Sequelize',
+						'Bootstrap',
+						'Semantic UI',
+						'Material UI',
 					]}
 					typeSpeed={60}
 					backSpeed={40}

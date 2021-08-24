@@ -23,11 +23,11 @@ export const Portfolio = () => {
 					alt="E-commerce"
 				/>
 				<p>E-Commerce App (Using React Redux Express Node.Js MongoDB...)</p>
-				<b>Demo: </b>
+				<b>Link: </b>
 				<a
 					className="hyper-link"
-					onClick={() => window.open('https://kennysshop.herokuapp.com/')}>
-					https://kennysshop.herokuapp.com/
+					onClick={() => window.open('https://kennysshop.herokuapp.com')}>
+					https://kennysshop.herokuapp.com
 				</a>
 				<br />
 				<b>GitHub: </b>
@@ -67,11 +67,11 @@ export const Portfolio = () => {
 					GeoLocationPin App (Using React Apollo Node.Js MongoDB React-Map-GL GraphQL
 					 ...)
 				</p>
-				<b>Demo: </b>
+				<b>Link: </b>
 				<a
 					className="hyper-link"
-					onClick={() => window.open('https://geoshares.netlify.app/')}>
-					https://geoshares.netlify.app/
+					onClick={() => window.open('https://geoshares.netlify.app')}>
+					https://geoshares.netlify.app
 				</a>
 				<br />
 				<b>GitHub: </b>
@@ -108,7 +108,7 @@ export const Portfolio = () => {
 					alt="This is my project3 ..."
 				/>
 				<p>This is the introduction of my project 3</p>
-				<b>Demo: </b>
+				<b>Link: </b>
 				{/* <a
 					className="hyper-link"
 					onClick={() =>
@@ -155,7 +155,7 @@ export const Portfolio = () => {
 					alt="This is my project4 ..."
 				/>
 				<p>This is the introduction of my project 4</p>
-				<b>Demo: </b>
+				<b>Link: </b>
 				{/* <a
 					className="hyper-link"
 					onClick={() =>
