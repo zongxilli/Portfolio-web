@@ -33,12 +33,12 @@ const Footer = () => {
 								<br />
 								<a className="footer-nav">About Me</a>
 								<br />
-								<a className="footer-nav">My Skills</a>
+								<a className="footer-nav">Skills</a>
 							</div>
 							<div className="col">
 								<a className="footer-nav">Experience</a>
 								<br />
-								<a className="footer-nav">My Projects</a>
+								<a className="footer-nav">rojects</a>
 								<br />
 								<a className="footer-nav">Contacts</a>
 							</div>

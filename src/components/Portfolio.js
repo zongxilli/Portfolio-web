@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from '../images/Project Image (1).png';
-import img2 from '../images/002.png';
+import img11 from '../images/Project Image (2).png';
+import img2 from '../images/Project Image (3).png';
 import img3 from '../images/003.jpg';
 import img4 from '../images/004.png';
 import ComingSoon from '../images/Coming Soon.jpg';
@@ -18,27 +19,21 @@ export const Portfolio = () => {
 			<>
 				<img
 					className="portfolio-image-popupbox"
-					src={img1}
+					src={img11}
 					alt="E-commerce"
 				/>
-				<p>Full-Stack E-Commerce App (Using React Redux Express NodeJs MongoDB...)</p>
+				<p>E-Commerce App (Using React Redux Express Node.Js MongoDB...)</p>
 				<b>Demo: </b>
 				<a
 					className="hyper-link"
-					onClick={() =>
-						window.open(
-							'https://kennysshop.herokuapp.com/'
-						)
-					}>
+					onClick={() => window.open('https://kennysshop.herokuapp.com/')}>
 					https://kennysshop.herokuapp.com/
 				</a>
 				<br />
 				<b>GitHub: </b>
 				<a
 					className="hyper-link"
-					onClick={() =>
-						window.open('https://github.com/zongxilli/E-shop')
-					}>
+					onClick={() => window.open('https://github.com/zongxilli/E-shop')}>
 					https://github.com/zongxilli/E-shop
 				</a>
 			</>
@@ -53,7 +48,7 @@ export const Portfolio = () => {
 	const popupboxConfigProject1 = {
 		titleBar: {
 			enable: true,
-			text: 'Kennys Shop',
+			text: 'Postcard Shop',
 		},
 		fadeIn: true,
 		fadeInSpeed: 300,
@@ -65,29 +60,26 @@ export const Portfolio = () => {
 			<>
 				<img
 					className="portfolio-image-popupbox"
-					src={ComingSoon}
-					alt="This is my project2 ..."
+					src={img2}
+					alt="GeoLocation Share"
 				/>
-				<p>This is the introduction of my project 2</p>
+				<p>
+					GeoLocationPin App (Using React Apollo Node.Js MongoDB React-Map-GL GraphQL
+					 ...)
+				</p>
 				<b>Demo: </b>
-				{/* <a
+				<a
 					className="hyper-link"
-					onClick={() =>
-						window.open(
-							'https://my-personal-website-o77luofz6-zongxilli.vercel.app/'
-						)
-					}>
-					https://my-personal-website-o77luofz6-zongxilli.vercel.app/
-				</a> */}
+					onClick={() => window.open('https://geoshares.netlify.app/')}>
+					https://geoshares.netlify.app/
+				</a>
 				<br />
 				<b>GitHub: </b>
-				{/* <a
+				<a
 					className="hyper-link"
-					onClick={() =>
-						window.open('https://github.com/zongxilli/Toy-Portfolio-web')
-					}>
-					https://github.com/zongxilli/Toy-Portfolio-web
-				</a> */}
+					onClick={() => window.open('https://github.com/zongxilli/GeoShares')}>
+					https://github.com/zongxilli/GeoShares
+				</a>
 			</>
 		);
 		PopupboxManager.open({ content });
@@ -100,7 +92,7 @@ export const Portfolio = () => {
 	const popupboxConfigProject2 = {
 		titleBar: {
 			enable: true,
-			text: 'This is the title of pj2',
+			text: 'GeoShares',
 		},
 		fadeIn: true,
 		fadeInSpeed: 300,
@@ -215,7 +207,7 @@ export const Portfolio = () => {
 					{/*-----------------------------------------------------------*/}
 
 					<div className="portfolio-image-box" onClick={openPopupboxProject2}>
-						<img className="portfolio-image" src={ComingSoon} alt="Project 2" />
+						<img className="portfolio-image" src={img2} alt="Project 2" />
 						<div className="overflow"></div>
 						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
 					</div>

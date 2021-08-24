@@ -1,7 +1,17 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
+import {
+	faFacebookF,
+	faGoogle,
+	faAirbnb,
+	faReact,
+	faNodeJs,
+	faAws,
+	faYarn,
+	faNpm,
+	faGithub,
+} from '@fortawesome/free-brands-svg-icons';
+import { faDesktop, faCode } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
 	return (
@@ -13,22 +23,15 @@ const Services = () => {
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="circle">
-								<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
+								<FontAwesomeIcon
+									className="icon1"
+									icon={faNodeJs}
+									size="2x"
+									spin
+								/>
 							</div>
-							<h3>Framework</h3>
-							<p>
-								Express, Node.js, Bootstrap, Semantic UI, Material UI ......
-							</p>
-						</div>
-					</div>
-					{/******************************/}
-					<div className="col-lg-3 col-md-6 col-sm-6">
-						<div className="box">
-							<div className="circle">
-								<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
-							</div>
-							<h3>Language</h3>
-							<p>JavaScript/JSX, GraphQL, Java, C, Python, R, Html, CSS ......</p>
+							<h3>Frameworks</h3>
+							<p>Express, Node.js, Bootstrap, Semantic UI, Material UI</p>
 						</div>
 					</div>
 					{/******************************/}
@@ -36,25 +39,47 @@ const Services = () => {
 						<div className="box">
 							<div className="circle">
 								<FontAwesomeIcon
-									className="icon"
-									icon={faFacebookF}
+									className="icon2"
+									icon={faReact}
 									size="2x"
+									spin
 								/>
 							</div>
-							<h3>Library</h3>
-							<p>React.js, Redux, Mongoose, Sequelize ......</p>
+							<h3>Libraries</h3>
+							<p>React.js, Redux, Mongoose, Sequelize</p>
 						</div>
 					</div>
 					{/******************************/}
 					<div className="col-lg-3 col-md-6 col-sm-6">
 						<div className="box">
 							<div className="circle">
-								<FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
+								<FontAwesomeIcon
+									className="icon3"
+									icon={faNpm}
+									size="2x"
+									spin
+								/>
 							</div>
-							<h3>Database</h3>
+							<h3>Tools</h3>
 							<p>
-								MongoDB, PostgreSQL ......
+								MongoDB, PostgreSQL, GraphQL, Knex, Firebase, AWS S3, AWS Cognito,
+								
 							</p>
+						</div>
+					</div>
+					{/******************************/}
+					<div className="col-lg-3 col-md-6 col-sm-6">
+						<div className="box">
+							<div className="circle">
+								<FontAwesomeIcon
+									className="icon4"
+									icon={faGithub}
+									size="2x"
+									spin
+								/>
+							</div>
+							<h3>Programming Language</h3>
+							<p>JavaScript, Java, Python, C, HTML, CSS, R language </p>
 						</div>
 					</div>
 				</div>

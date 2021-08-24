@@ -113,11 +113,11 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
-	border-top: 0.1875rem solid var(--primary-green);
+	border-top: 0.1875rem solid var(--primary-light-blue);
 }
 
 .navbar-nav > li > a:hover {
-	border-top: 0.1875rem solid var(--primary-green);
+	border-top: 0.1875rem solid var(--primary-light-blue);
 }
 
 /******************************** HEADER ********************************/
@@ -145,7 +145,7 @@ nav ul li {
 }
 
 .main-info h1 {
-	color: var(--primary-orange);
+	color: var(--primary-light-blue);
 	text-transform: uppercase;
 	font-weight: 100; /*BMS*/
 }
@@ -167,7 +167,7 @@ nav ul li {
 
 /**------ HEADER MAIN OFFER BUTTON -----**/
 .btn-main-offer {
-	border: 1px solid var(--primary-green);
+	border: 1px solid var(--primary-light-blue);
 	text-transform: uppercase;
 	border-radius: 0;
 	padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -177,7 +177,7 @@ nav ul li {
 
 .btn-main-offer:hover {
 	text-decoration: none;
-	background-color: var(--primary-hover-blue);
+	background-color: var(--primary-light-blue);
 	color: var(--primary-white);
 	transition: 0.2s ease-in-out;
 }
@@ -202,11 +202,11 @@ nav ul li {
 	width: 16rem;
 	border-radius: 50%;
 	padding: 0.3rem;
-	border: 1px solid var(--primary-purple);
+	/* border: 1px solid var(--primary-light-blue); */
 }
 
 .about-heading {
-	/* color: var(--primary-purple); */
+	color: var(--primary-dark);
 	text-transform: uppercase;
 }
 
@@ -216,7 +216,7 @@ nav ul li {
 	}
 }
 
-/******************************** SERVICES ********************************/
+/******************************** SERVICES (SKILLS) ********************************/
 .services {
 	text-align: center;
 	padding-bottom: 2rem;
@@ -224,31 +224,70 @@ nav ul li {
 }
 
 .services h1 {
-	/* color: var(--primary-purple); */
+	color: var(--primary-dark);
 	text-transform: uppercase;
 }
 
 .services .circle {
 	position: relative;
 	margin: 0.375rem auto;
-	background: var(--primary-trans-purple);
+	background: var(--primary-light-blue);
 	border-radius: 50%;
 	width: 3.125rem;
 	height: 3.125rem;
 }
 
-.services .icon {
+/* Because used flip for 4 icons => I have to format them separately */
+/* This the original format of 4 unfliping icon*/
+/* .services .icon {
 	font-size: 1.4rem;
 	color: var(--primary-white);
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+} */
+
+/* ------------------------------- */
+
+.services .icon1 {
+	font-size: 2.5rem;
+	color: var(--primary-white);
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	transform: translate(-50%, -50%);
 }
+.services .icon2 {
+	font-size: 2.5rem;
+	color: var(--primary-white);
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+.services .icon3 {
+	font-size: 2.5rem;
+	color: var(--primary-white);
+	position: absolute;
+	top: 10%;
+	left: 7%;
+	transform: translate(-50%, -50%);
+}
+.services .icon4 {
+	font-size: 2.5rem;
+	color: var(--primary-white);
+	position: absolute;
+	top: 10%;
+	left: 11%;
+	transform: translate(-50%, -50%);
+}
+
+/* ------------------------------- */
 
 .services .box {
 	height: 16rem;
-	border-bottom: 0.3125rem solid var(--primary-purple);
+	border-bottom: 0.3125rem solid var(--primary-light-blue);
 	padding: 0.625rem;
 	margin-bottom: 1.875rem;
 	background: var(--primary-white);
@@ -256,19 +295,24 @@ nav ul li {
 }
 
 .services .box:hover {
-	background: var(--primary-trans-purple);
-	border-bottom: 0.3125rem solid var(--primary-light-grey);
+	background: var(--primary-light-blue);
+	border-bottom: 0.3125rem solid var(--primary-light-blue);
 }
 
 .services .box:hover .icon {
-	color: var(--primary-trans-purple);
+	color: var(--primary-light-blue);
 }
 
 .services .box:hover .circle {
-	background: var(--primary-white);
+	background: var(--primary-light-blue);
+	/* it was --primary-white before changed 4 icons to spin */
 }
 
 .services .box:hover p {
+	color: var(--primary-white);
+}
+
+.services .box:hover h3 {
 	color: var(--primary-white);
 }
 
@@ -286,7 +330,7 @@ nav ul li {
 
 .experience h1 {
 	text-transform: uppercase;
-	/* color: var(--primary-purple); */
+	color: var(--primary-dark);
 }
 
 .experience-wrapper::before {
@@ -336,12 +380,12 @@ nav ul li {
 
 .timeline-content {
 	margin-top: 0.3125rem;
-	color: var(--primary-);
+	color: var(--primary-black);
 }
 
 .timeline-content h3 {
 	margin-top: 0.3125rem;
-	color: var(--primary-red);
+	color: var(--primary-light-blue);
 	font-weight: 900;
 }
 
@@ -369,7 +413,7 @@ nav ul li {
 	}
 }
 
-/******************************** PORTFOLIO ********************************/
+/******************************** PORTFOLIO (PROJECTS) ********************************/
 
 .portfolio-wrapper {
 	background: var(--primary-white);
@@ -378,11 +422,12 @@ nav ul li {
 
 .portfolio-wrapper h1 {
 	/* color: var(--primary-orange); */
+	color: var(--primary-dark)
 }
 
 .portfolio-image {
 	width: 15rem;
-	border: 1px solid var(--primary-orange);
+	border: 1px solid var(--primary-purple);
 	padding: 0 0.5rem;
 }
 
@@ -400,7 +445,7 @@ nav ul li {
 	width: 15rem;
 	height: 8rem;
 	top: 0;
-	border: 1px solid var(--primary-red);
+	border: 1px solid var(--primary-purple);
 	cursor: pointer;
 }
 
@@ -414,7 +459,7 @@ nav ul li {
 	opacity: 0;
 	margin-left: -8rem;
 	margin-top: 3.6rem;
-	color: var(--primary-orange);
+	color: var(--primary-light-blue);
 	font-size: 1.5rem;
 }
 
@@ -436,7 +481,7 @@ nav ul li {
 
 .hyper-link {
 	cursor: pointer;
-	color: var(--primary-orange);
+	color: var(--primary-light-blue);
 }
 
 .hyper-link:hover {
@@ -482,7 +527,7 @@ nav ul li {
 }
 
 .testimonials h1 {
-	color: var(--primary-pink);
+	color: var(--primary-dark);
 	padding: 3rem 0;
 	text-transform: uppercase;
 }
@@ -509,7 +554,7 @@ nav ul li {
 }
 
 .myCarousel h3 {
-	color: var(--primary-pink);
+	color: var(--primary-light-blue);
 	font-weight: 600;
 	/* text-transform: uppercase; */
 }
@@ -662,7 +707,7 @@ textarea.form-control {
 
 .footer a:hover {
 	text-decoration: none;
-	color: var(--primary-green);
+	color: var(--primary-light-blue);
 	cursor: pointer;
 }
 
