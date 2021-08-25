@@ -39,7 +39,7 @@ const Footer = () => {
 							<div className="col">
 								<a className="footer-nav">Experience</a>
 								<br />
-								<a className="footer-nav">rojects</a>
+								<a className="footer-nav">Projects</a>
 								<br />
 								<a className="footer-nav">Contacts</a>
 							</div>

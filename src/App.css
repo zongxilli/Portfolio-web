@@ -128,6 +128,7 @@ nav ul li {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	z-index: -1; /*BMS*/
 }
 
 .main-info {
@@ -141,7 +142,8 @@ nav ul li {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	z-index: 2; /*BMS used to be 1*/
+	/* z-index: 2;  */
+	/*BMS used to be 1*/
 }
 
 .main-info h1 {
@@ -191,7 +193,6 @@ nav ul li {
 }
 
 /******************************** ABOUT ME ********************************/
-
 .photo-wrap {
 	display: flex;
 	justify-content: center;

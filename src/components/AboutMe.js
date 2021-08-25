@@ -20,7 +20,8 @@ const AboutMe = () => {
 					<p>
 						What I did in my past internship: <br />
 						- Designed and implemented an image detection web application with
-						React and Node.js<br />
+						React and Node.js
+						<br />
 						- Created responsive UI with Semantic UI and Bootstrap <br />
 						- Achieved MongoDB and PostgreSQL databases connection and migration
 						with Mongoose, Knex and Sequelize

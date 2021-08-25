@@ -1,120 +1,142 @@
 import React from 'react';
-import Particles from 'react-particles-js';
-
+//import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 
 const Dynamic = () => {
 	return (
 		<>
 			<Particles
-				params={{
-					particles: {
-						number: {
-							value: 50,
-							density: {
-								enable: true,
-								value_area: 800,
-							},
-						},
-						color: {
-							value: '#fff',
-						},
-						shape: {
-							type: 'circle',
-							stroke: {
-								width: 0,
-								color: '#000000',
-							},
-							polygon: {
-								nb_sides: 5,
-							},
-							image: {
-								src: 'img/github.svg',
-								width: 100,
-								height: 100,
-							},
-						},
-						opacity: {
-							value: 0.5,
-							random: true,
-							anim: {
-								enable: false,
-								speed: 1,
-								opacity_min: 0.1,
-								sync: false,
-							},
-						},
-						size: {
-							value: 10,
-							random: true,
-							anim: {
-								enable: false,
-								speed: 40,
-								size_min: 0.1,
-								sync: false,
-							},
-						},
-						line_linked: {
-							enable: false,
-							distance: 500,
-							color: '#ffffff',
-							opacity: 0.4,
-							width: 2,
-						},
-						move: {
-							enable: true,
-							speed: 6,
-							direction: 'bottom',
-							random: false,
-							straight: false,
-							out_mode: 'out',
-							bounce: false,
-							attract: {
-								enable: false,
-								rotateX: 600,
-								rotateY: 1200,
-							},
-						},
+				options={{
+					fullScreen: {
+						enable: true,
+						zIndex: 0,
 					},
 					interactivity: {
-						detect_on: 'canvas',
 						events: {
-							onhover: {
-								enable: true,
-								mode: 'bubble',
+							onClick: {
+								enable: false,
+								mode: 'push',
 							},
-							onclick: {
+							onHover: {
 								enable: true,
 								mode: 'repulse',
-							},
-							resize: true,
-						},
-						modes: {
-							grab: {
-								distance: 400,
-								line_linked: {
-									opacity: 0.5,
+								parallax: {
+									force: 60,
 								},
 							},
+						},
+						modes: {
 							bubble: {
 								distance: 400,
-								size: 4,
-								duration: 0.3,
-								opacity: 1,
-								speed: 3,
+								duration: 2,
+								opacity: 0.8,
+								size: 40,
 							},
-							repulse: {
-								distance: 200,
-								duration: 0.4,
-							},
-							push: {
-								particles_nb: 4,
-							},
-							remove: {
-								particles_nb: 2,
+							grab: {
+								distance: 400,
 							},
 						},
 					},
-					retina_detect: true,
+					particles: {
+						color: {
+							value: '#ffffff',
+						},
+						links: {
+							color: {
+								value: '#10dae8bd',
+							},
+							distance: 150,
+							enable: true,
+							opacity: 1,
+						},
+						move: {
+							attract: {
+								rotate: {
+									x: 600,
+									y: 1200,
+								},
+							},
+							enable: true,
+							outModes: {
+								bottom: 'out',
+								left: 'out',
+								right: 'out',
+								top: 'out',
+							},
+						},
+						number: {
+							density: {
+								enable: true,
+							},
+							value: 15,
+						},
+						opacity: {
+							value: {
+								min: 0.1,
+								max: 0.5,
+							},
+							animation: {
+								enable: true,
+								speed: 1,
+								minimumValue: 0.1,
+							},
+						},
+						shape: {
+							options: {
+								character: {
+									value: ['r', 'e', 'a', 'c', 't'],
+									font: 'Verdana',
+									style: '',
+									weight: '400',
+									fill: true,
+								},
+								char: {
+									value: ['r', 'e', 'a', 'c', 't'],
+									font: 'Verdana',
+									style: '',
+									weight: '400',
+									fill: true,
+								},
+							},
+							type: 'char',
+						},
+						size: {
+							value: 16,
+							animation: {
+								speed: 10,
+								minimumValue: 10,
+							},
+						},
+						stroke: {
+							width: 1,
+							color: {
+								value: '#ffffff',
+								animation: {
+									h: {
+										count: 0,
+										enable: false,
+										offset: 0,
+										speed: 1,
+										sync: true,
+									},
+									s: {
+										count: 0,
+										enable: false,
+										offset: 0,
+										speed: 1,
+										sync: true,
+									},
+									l: {
+										count: 0,
+										enable: false,
+										offset: 0,
+										speed: 1,
+										sync: true,
+									},
+								},
+							},
+						},
+					},
 				}}
 			/>
 		</>
