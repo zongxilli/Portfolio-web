@@ -51,7 +51,7 @@ const Navbar = () => {
 								to="experience"
 								offset={-110}
 								className="nav-link">
-								experience
+								experiences
 							</Link>
 						</li>
 						<li className="nav-item">
