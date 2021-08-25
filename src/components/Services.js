@@ -10,6 +10,9 @@ import {
 	faYarn,
 	faNpm,
 	faGithub,
+	faCodepen,
+	faConnectdevelop,
+	faPushed,
 } from '@fortawesome/free-brands-svg-icons';
 import { faDesktop, faCode } from '@fortawesome/free-solid-svg-icons';
 
@@ -73,7 +76,7 @@ const Services = () => {
 							<div className="circle">
 								<FontAwesomeIcon
 									className="icon4"
-									icon={faGithub}
+									icon={faConnectdevelop}
 									size="2x"
 									spin
 								/>

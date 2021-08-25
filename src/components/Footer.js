@@ -9,11 +9,12 @@ import {
 	WhatsappShareButton,
 	WhatsappIcon,
 } from 'react-share';
+import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
 	return (
 		<div className="footer">
-			<div classNama="container">
+			<div className="container">
 				<div className="row">
 					<div className="col-lg-4 col-md-6 col-sm-6">
 						<div className="d-flex">
@@ -46,7 +47,28 @@ const Footer = () => {
 					</div>
 					<div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
 						<div className="d-flex justify-content-center">
-							<FacebookShareButton
+							<SocialIcon
+								className="mx-3"
+								style={{ height: 36, width: 36 }}
+								bgColor="white"
+								url="https://github.com/zongxilli"
+							/>
+							<SocialIcon
+								className="mx-3"
+								style={{ height: 36, width: 36 }}
+								url="https://www.linkedin.com/in/zongxi-kenny-li-zongxi2014"
+							/>
+							<SocialIcon
+								className="mx-3"
+								style={{ height: 36, width: 36 }}
+								url="https://www.instagram.com/kenniii3"
+							/>
+							<SocialIcon
+								className="mx-3"
+								style={{ height: 36, width: 36 }}
+								url="https://wa.me/16478664668"
+							/>
+							{/* <FacebookShareButton
 								url={'https://www.facebook.com/Kenny.Zongxi.li/'}
 								hashtag="#javascript">
 								<FacebookIcon className="mx-3" size={36} round="true" />
@@ -60,7 +82,7 @@ const Footer = () => {
 							<LinkedinShareButton
 								url={'https://www.linkedin.com/in/zongxi-kenny-li-zongxi2014'}>
 								<LinkedinIcon className="mx-3" size={36} round="true" />
-							</LinkedinShareButton>
+							</LinkedinShareButton> */}
 						</div>
 						<p className="pt-3 text-center">
 							Copyright&copy;
