@@ -526,10 +526,10 @@ nav ul li {
 	}
 }
 
-/******************************** TESTIMONIALS ********************************/
+/******************************** TESTIMONIALS (CAMERA ROLL) ********************************/
 
 .testimonials {
-	background-image: url('./images/background (40).jpg');
+	background-image: url('./images/background (3).jpg');
 	background-size: cover;
 	background-color: var(--primary-black);
 	text-align: center;
@@ -539,7 +539,7 @@ nav ul li {
 }
 
 .testimonials h1 {
-	color: var(--primary-dark);
+	color: var(--primary-light-blue);
 	padding: 3rem 0;
 	text-transform: uppercase;
 }
