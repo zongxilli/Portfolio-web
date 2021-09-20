@@ -205,16 +205,16 @@ export const Portfolio = () => {
 				<h1 className='text-uppercase text-center py-5'>Projects</h1>
 
 				<div className='image-box-wrapper row justify-content-center'>
-					<div className='portfolio-image-box' onClick={openPopupboxProject1}>
-						<img className='portfolio-image' src={img1} alt='Project 1' />
+					<div className='portfolio-image-box' onClick={openPopupboxProject2}>
+						<img className='portfolio-image' src={img2} alt='Project 2' />
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
 
 					{/*-----------------------------------------------------------*/}
 
-					<div className='portfolio-image-box' onClick={openPopupboxProject2}>
-						<img className='portfolio-image' src={img2} alt='Project 2' />
+					<div className='portfolio-image-box' onClick={openPopupboxProject1}>
+						<img className='portfolio-image' src={img1} alt='Project 1' />
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
@@ -229,17 +229,17 @@ export const Portfolio = () => {
 
 					{/*-----------------------------------------------------------*/}
 
-					<div className='portfolio-image-box' onClick={openPopupboxProject4}>
+					{/* <div className='portfolio-image-box' onClick={openPopupboxProject4}>
 						<img className='portfolio-image' src={ComingSoon} alt='Project 4' />
 						<div className='overflow'></div>
 						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<PopupboxContainer {...popupboxConfigProject1} />
 			<PopupboxContainer {...popupboxConfigProject2} />
 			<PopupboxContainer {...popupboxConfigProject3} />
-			<PopupboxContainer {...popupboxConfigProject4} />
+			{/* <PopupboxContainer {...popupboxConfigProject4} /> */}
 		</div>
 	);
 };
