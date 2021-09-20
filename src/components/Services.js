@@ -18,18 +18,18 @@ import { faDesktop, faCode } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
 	return (
-		<div id="services" className="services">
-			<h1 className="py-5">Skills</h1>
-			<div className="container">
-				<div className="row">
+		<div id='services' className='services'>
+			<h1 className='py-5'>Skills</h1>
+			<div className='container'>
+				<div className='row'>
 					{/******************************/}
-					<div className="col-lg-3 col-md-6 col-sm-6">
-						<div className="box">
-							<div className="circle">
+					<div className='col-lg-3 col-md-6 col-sm-6'>
+						<div className='box'>
+							<div className='circle'>
 								<FontAwesomeIcon
-									className="icon1"
+									className='icon1'
 									icon={faNodeJs}
-									size="2x"
+									size='2x'
 									spin
 								/>
 							</div>
@@ -38,13 +38,13 @@ const Services = () => {
 						</div>
 					</div>
 					{/******************************/}
-					<div className="col-lg-3 col-md-6 col-sm-6">
-						<div className="box">
-							<div className="circle">
+					<div className='col-lg-3 col-md-6 col-sm-6'>
+						<div className='box'>
+							<div className='circle'>
 								<FontAwesomeIcon
-									className="icon2"
+									className='icon2'
 									icon={faReact}
-									size="2x"
+									size='2x'
 									spin
 								/>
 							</div>
@@ -53,36 +53,36 @@ const Services = () => {
 						</div>
 					</div>
 					{/******************************/}
-					<div className="col-lg-3 col-md-6 col-sm-6">
-						<div className="box">
-							<div className="circle">
+					<div className='col-lg-3 col-md-6 col-sm-6'>
+						<div className='box'>
+							<div className='circle'>
 								<FontAwesomeIcon
-									className="icon3"
+									className='icon3'
 									icon={faNpm}
-									size="2x"
+									size='2x'
 									spin
 								/>
 							</div>
 							<h3>Tools</h3>
 							<p>
-								MongoDB, PostgreSQL, GraphQL, Knex, Firebase, AWS S3, AWS Cognito,
-								
+								MongoDB, PostgreSQL, GraphQL, Knex, Firebase, AWS S3, AWS
+								Cognito, Formik
 							</p>
 						</div>
 					</div>
 					{/******************************/}
-					<div className="col-lg-3 col-md-6 col-sm-6">
-						<div className="box">
-							<div className="circle">
+					<div className='col-lg-3 col-md-6 col-sm-6'>
+						<div className='box'>
+							<div className='circle'>
 								<FontAwesomeIcon
-									className="icon4"
+									className='icon4'
 									icon={faConnectdevelop}
-									size="2x"
+									size='2x'
 									spin
 								/>
 							</div>
 							<h3>Programming Language</h3>
-							<p>JavaScript, Java, Python, C, HTML, CSS, R language </p>
+							<p>JavaScript, Java, Python, C, C#, HTML, CSS, R language </p>
 						</div>
 					</div>
 				</div>

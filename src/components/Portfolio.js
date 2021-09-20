@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import img1 from '../images/Project Image (1).png';
 import img11 from '../images/Project Image (2).png';
 import img2 from '../images/Project Image (3).png';
-import img3 from '../images/003.jpg';
-import img4 from '../images/004.png';
+import img3 from '../images/Project Image (4).png';
+import img31 from '../images/Project Image (5).png';
 import ComingSoon from '../images/Coming Soon.jpg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -18,22 +19,27 @@ export const Portfolio = () => {
 		const content = (
 			<>
 				<img
-					className="portfolio-image-popupbox"
+					className='portfolio-image-popupbox'
 					src={img11}
-					alt="E-commerce"
+					alt='E-commerce'
 				/>
-				<p>E-Commerce App (Using React Redux Express Node.Js MongoDB...)</p>
+				<p>
+					E-Commerce App (Using React Redux Express Node.Js MongoDB
+					Bootstrap...)
+				</p>
 				<b>Link: </b>
 				<a
-					className="hyper-link"
-					onClick={() => window.open('https://kennysshop.herokuapp.com')}>
+					className='hyper-link'
+					onClick={() => window.open('https://kennysshop.herokuapp.com')}
+				>
 					https://kennysshop.herokuapp.com
 				</a>
 				<br />
 				<b>GitHub: </b>
 				<a
-					className="hyper-link"
-					onClick={() => window.open('https://github.com/zongxilli/E-shop')}>
+					className='hyper-link'
+					onClick={() => window.open('https://github.com/zongxilli/E-shop')}
+				>
 					https://github.com/zongxilli/E-shop
 				</a>
 			</>
@@ -59,25 +65,27 @@ export const Portfolio = () => {
 		const content = (
 			<>
 				<img
-					className="portfolio-image-popupbox"
+					className='portfolio-image-popupbox'
 					src={img2}
-					alt="GeoLocation Share"
+					alt='GeoLocation Share'
 				/>
 				<p>
-					GeoLocationPin App (Using React Apollo Node.Js MongoDB React-Map-GL GraphQL
-					 ...)
+					GeoLocationPin App (Using React Apollo Node.Js MongoDB GraphQL
+					Material UI ...)
 				</p>
 				<b>Link: </b>
 				<a
-					className="hyper-link"
-					onClick={() => window.open('https://geoshares.netlify.app')}>
+					className='hyper-link'
+					onClick={() => window.open('https://geoshares.netlify.app')}
+				>
 					https://geoshares.netlify.app
 				</a>
 				<br />
 				<b>GitHub: </b>
 				<a
-					className="hyper-link"
-					onClick={() => window.open('https://github.com/zongxilli/GeoShares')}>
+					className='hyper-link'
+					onClick={() => window.open('https://github.com/zongxilli/GeoShares')}
+				>
 					https://github.com/zongxilli/GeoShares
 				</a>
 			</>
@@ -103,30 +111,29 @@ export const Portfolio = () => {
 		const content = (
 			<>
 				<img
-					className="portfolio-image-popupbox"
-					src={ComingSoon}
-					alt="This is my project3 ..."
+					className='portfolio-image-popupbox'
+					src={img3}
+					alt='Social Chat & Meeting'
 				/>
-				<p>This is the introduction of my project 3</p>
+				<p>
+					Social Meet & Chat App(Using React Redux Google(Maps, OAuth) APIs
+					Firebase Semantic UI ...)
+				</p>
 				<b>Link: </b>
-				{/* <a
-					className="hyper-link"
-					onClick={() =>
-						window.open(
-							'https://my-personal-website-o77luofz6-zongxilli.vercel.app/'
-						)
-					}>
-					https://my-personal-website-o77luofz6-zongxilli.vercel.app/
-				</a> */}
+				<a
+					className='hyper-link'
+					onClick={() => window.open('https://coffmeet.netlify.app')}
+				>
+					https://coffmeet.netlify.app
+				</a>
 				<br />
 				<b>GitHub: </b>
-				{/* <a
-					className="hyper-link"
-					onClick={() =>
-						window.open('https://github.com/zongxilli/Toy-Portfolio-web')
-					}>
-					https://github.com/zongxilli/Toy-Portfolio-web
-				</a> */}
+				<a
+					className='hyper-link'
+					onClick={() => window.open('https://github.com/zongxilli/CoffMeet')}
+				>
+					https://github.com/zongxilli/CoffMeet
+				</a>
 			</>
 		);
 		PopupboxManager.open({ content });
@@ -139,7 +146,7 @@ export const Portfolio = () => {
 	const popupboxConfigProject3 = {
 		titleBar: {
 			enable: true,
-			text: 'This is the title of pj3',
+			text: 'CoffMeet',
 		},
 		fadeIn: true,
 		fadeInSpeed: 300,
@@ -150,9 +157,9 @@ export const Portfolio = () => {
 		const content = (
 			<>
 				<img
-					className="portfolio-image-popupbox"
+					className='portfolio-image-popupbox'
 					src={ComingSoon}
-					alt="This is my project4 ..."
+					alt='This is my project4 ...'
 				/>
 				<p>This is the introduction of my project 4</p>
 				<b>Link: </b>
@@ -193,39 +200,39 @@ export const Portfolio = () => {
 	};
 
 	return (
-		<div id="portfolio" className="portfolio-wrapper">
-			<div className="container">
-				<h1 className="text-uppercase text-center py-5">Projects</h1>
+		<div id='portfolio' className='portfolio-wrapper'>
+			<div className='container'>
+				<h1 className='text-uppercase text-center py-5'>Projects</h1>
 
-				<div className="image-box-wrapper row justify-content-center">
-					<div className="portfolio-image-box" onClick={openPopupboxProject1}>
-						<img className="portfolio-image" src={img1} alt="Project 1" />
-						<div className="overflow"></div>
-						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+				<div className='image-box-wrapper row justify-content-center'>
+					<div className='portfolio-image-box' onClick={openPopupboxProject1}>
+						<img className='portfolio-image' src={img1} alt='Project 1' />
+						<div className='overflow'></div>
+						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
 
 					{/*-----------------------------------------------------------*/}
 
-					<div className="portfolio-image-box" onClick={openPopupboxProject2}>
-						<img className="portfolio-image" src={img2} alt="Project 2" />
-						<div className="overflow"></div>
-						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+					<div className='portfolio-image-box' onClick={openPopupboxProject2}>
+						<img className='portfolio-image' src={img2} alt='Project 2' />
+						<div className='overflow'></div>
+						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
 
 					{/*-----------------------------------------------------------*/}
 
-					<div className="portfolio-image-box" onClick={openPopupboxProject3}>
-						<img className="portfolio-image" src={ComingSoon} alt="Project 3" />
-						<div className="overflow"></div>
-						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+					<div className='portfolio-image-box' onClick={openPopupboxProject3}>
+						<img className='portfolio-image' src={img3} alt='Project 3' />
+						<div className='overflow'></div>
+						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
 
 					{/*-----------------------------------------------------------*/}
 
-					<div className="portfolio-image-box" onClick={openPopupboxProject4}>
-						<img className="portfolio-image" src={ComingSoon} alt="Project 4" />
-						<div className="overflow"></div>
-						<FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+					<div className='portfolio-image-box' onClick={openPopupboxProject4}>
+						<img className='portfolio-image' src={ComingSoon} alt='Project 4' />
+						<div className='overflow'></div>
+						<FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
 					</div>
 				</div>
 			</div>
