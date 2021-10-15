@@ -34,7 +34,10 @@ const Services = () => {
 								/>
 							</div>
 							<h3>Frameworks</h3>
-							<p>Express, Node.js, Bootstrap, Semantic UI, Material UI</p>
+							<p>
+								Express, Node.js, Bootstrap, Material UI,
+								Semantic UI ...
+							</p>
 						</div>
 					</div>
 					{/******************************/}
@@ -49,7 +52,7 @@ const Services = () => {
 								/>
 							</div>
 							<h3>Libraries</h3>
-							<p>React.js, Redux, Mongoose, Sequelize</p>
+							<p>React.js, Redux, Mongoose, Sequelize ...</p>
 						</div>
 					</div>
 					{/******************************/}
@@ -65,8 +68,9 @@ const Services = () => {
 							</div>
 							<h3>Tools</h3>
 							<p>
-								MongoDB, PostgreSQL, GraphQL, Knex, Firebase, AWS S3, AWS
-								Cognito, Formik
+								JWT, MongoDB, PostgreSQL, GraphQL, Knex,
+								Firebase, AWS, Google APIs & Firebase, Jest,
+								Formik ...
 							</p>
 						</div>
 					</div>
@@ -82,7 +86,10 @@ const Services = () => {
 								/>
 							</div>
 							<h3>Programming Language</h3>
-							<p>JavaScript, Java, Python, C, C#, HTML, CSS, R language </p>
+							<p>
+								JavaScript, Java, Python, C, C#, HTML, CSS, R
+								language ...
+							</p>
 						</div>
 					</div>
 				</div>

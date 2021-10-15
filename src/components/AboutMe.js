@@ -27,11 +27,11 @@ const AboutMe = () => {
 						What I did in my past internship: <br />
 						- Designed and implemented a powerful image detection &
 						annotation React application with React, Redux, Express,
-						Node.js, Bootstrap, MongoDB & PostgreSQL. It is able to
-						draw, move and delete many shapes with the auto-complete
-						and zoom in/out feature, also it is able to store the
-						relative coordinates data interacting with 2 backend
-						servers
+						Node.js, Bootstrap, Sequelize, Mongoose ... It is able
+						to draw, move and delete many shapes with the
+						auto-complete and zoom in/out feature, also it is able
+						to store the relative coordinates data interacting with
+						2 backend servers of 2 databases (PostgreSQL & MongoDB)
 						<br />- Created responsive UI with Semantic UI and
 						Bootstrap <br />
 						- Achieved MongoDB and PostgreSQL databases connection
