@@ -6,23 +6,12 @@ const Header = () => {
 	return (
 		<div id="home" className="header-wraper">
 			<div className="main-info">
-				<h1>React Developer</h1>
+				<h1>Zongxi(Kenny) Li</h1>
 				<Typed
 					className="typed-text"
 					strings={[
-						'React',
-						'Redux',
-						'Express',
-						'Node.Js',
-						'GraphQL',
-						'Axios',
-						'MongoDB',
-						'Mongoose',
-						'PostgreSQL',
-						'Sequelize',
-						'Bootstrap',
-						'Semantic UI',
-						'Material UI',
+						'Full stack developer at Mosaic Manufacturing',
+						'UofTGrad21',
 					]}
 					typeSpeed={60}
 					backSpeed={40}
@@ -42,3 +31,17 @@ const Header = () => {
 };
 
 export default Header;
+
+// 'React',
+// 						'Redux',
+// 						'Express',
+// 						'Node.Js',
+// 						'GraphQL',
+// 						'Axios',
+// 						'MongoDB',
+// 						'Mongoose',
+// 						'PostgreSQL',
+// 						'Sequelize',
+// 						'Bootstrap',
+// 						'Semantic UI',
+// 						'Material UI',
