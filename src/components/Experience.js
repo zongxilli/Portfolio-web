@@ -10,11 +10,10 @@ const Experience = () => {
 				<div className='timeline-block timeline-block-right'>
 					<div className='marker'></div>
 					<div className='timeline-content'>
-						<h3>Graduated 2021</h3>
+						<h3>2015 - 2021</h3>
 						<p>
-							Honours Bachelor of Science degree at University of
-							Toronto at Scarborough (Mathematics and Statistics
-							double majors)
+							BS in Math & Stats from the University of Toronto
+							Scarborough
 						</p>
 					</div>
 				</div>
@@ -22,19 +21,16 @@ const Experience = () => {
 				<div className='timeline-block timeline-block-left'>
 					<div className='marker'></div>
 					<div className='timeline-content'>
-						<h3>Summer 2021</h3>
-						<p>Internship at Fintelics (Software Developer)</p>
+						<h3>2021 May - Aug</h3>
+						<p>Software Developer at Fintelics</p>
 					</div>
 				</div>
 				{/*-----------------------------------------------------*/}
 				<div className='timeline-block timeline-block-right'>
 					<div className='marker'></div>
 					<div className='timeline-content'>
-						<h3>Present</h3>
-						<p>
-							Looking For Frontend / Backend / Fullstack Developer job
-							in Canada
-						</p>
+						<h3>2021 Nov - Present</h3>
+						<p>Full Stack Developer at Mosaic Manufacturing</p>
 					</div>
 				</div>
 			</div>

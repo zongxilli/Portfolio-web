@@ -68,9 +68,8 @@ const Services = () => {
 							</div>
 							<h3>Tools</h3>
 							<p>
-								JWT, MongoDB, PostgreSQL, GraphQL, Knex,
-								Firebase, AWS, Google APIs & Firebase, Jest,
-								Formik ...
+								AWS, GCP, JWT, MongoDB, PostgreSQL, GraphQL,
+								Knex, Jest, Formik ...
 							</p>
 						</div>
 					</div>
